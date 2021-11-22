@@ -1,0 +1,7 @@
+GET http://localhost:3000/space/flights
+
+### 
+http://localhost:3000/space/destinations
+
+### 
+http://localhost:3000/space/flights/seats
