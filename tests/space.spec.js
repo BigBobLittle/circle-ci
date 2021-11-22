@@ -103,6 +103,6 @@ describe("Space test suite", () => {
 
     expect(response.body[0].active).toBeActive();
     expect(response.body[1].active).not.toBeActive();
-    expect(response.body[0].active).not.toBeActive();
+   // expect(response.body[0].active).not.toBeActive();
   });
 });
