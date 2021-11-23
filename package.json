@@ -20,6 +20,8 @@
     "morgan": "~1.9.1"
   },
   "devDependencies": {
+    "commitizen": "^4.2.4",
+    "cz-conventional-changelog": "^3.3.0",
     "eslint": "^8.3.0",
     "eslint-config-airbnb-base": "^15.0.0",
     "eslint-plugin-import": "^2.25.3",
@@ -27,5 +29,10 @@
     "jest": "^27.3.1",
     "lint-staged": "^12.1.2",
     "supertest": "^6.1.6"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
   }
 }
