@@ -89,7 +89,7 @@ router.get('/flights', (req, res) => {
   ]);
 });
 
-router.get('/flights/seats', (req, res, next) => {
+router.get('/flights/seats', (req, res) => {
   res.send({
     starship: [
       {
