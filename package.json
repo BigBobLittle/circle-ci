@@ -5,18 +5,27 @@
   "scripts": {
     "start": "node ./bin/www",
     "test": "jest",
-    "test:watch": "npm run test -- --watch"
+    "test:watch": "npm run test -- --watch",
+    "prepare": "husky install",
+    "lint": "eslint .",
+    "lint:fix": "eslint --fix ."
   },
   "dependencies": {
     "cookie-parser": "~1.4.4",
     "debug": "~2.6.9",
     "express": "~4.16.1",
     "http-errors": "~1.6.3",
+    "husky": "^7.0.4",
     "jade": "~1.11.0",
     "morgan": "~1.9.1"
   },
   "devDependencies": {
+    "eslint": "^8.3.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.25.3",
+    "husky": "^7.0.0",
     "jest": "^27.3.1",
+    "lint-staged": "^12.1.2",
     "supertest": "^6.1.6"
   }
 }
