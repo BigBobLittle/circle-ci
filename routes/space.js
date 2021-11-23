@@ -3,16 +3,16 @@ const express = require('express');
 const router = express.Router();
 
 /* GET users listing. */
-router.get('/', (req, res, next) => {
+router.get('/', (req, res) => {
   res.send('Checkout /space/flights, /space/destinations or /space/flight/seats for more information on this route');
 });
 
-router.get('/destinations', (req, res, next) => {
+router.get('/destinations', (req, res) => {
   res.send(['Mars', 'Moon', 'Earth', 'Mercury', 'Venus', 'Jupiter',
   ]);
 });
 
-router.get('/flights', (req, res, next) => {
+router.get('/flights', (req, res) => {
   res.send([
     {
       id: 'dragon1',

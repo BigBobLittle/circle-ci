@@ -8,7 +8,7 @@
     "test:watch": "npm run test -- --watch",
     "prepare": "husky install",
     "lint": "eslint .",
-    "lint:fix": "eslint --fix ."
+    "lint:fix": "eslint --fix"
   },
   "dependencies": {
     "cookie-parser": "~1.4.4",

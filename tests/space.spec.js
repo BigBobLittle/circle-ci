@@ -97,7 +97,7 @@ describe('Space test suite', () => {
     );
   });
 
-  it('test toBeactive /flights endpoint', async () => {
+  it('test toBeActive flights endpoint', async () => {
     const response = await request(app).get('/space/flights');
 
     expect(response.body[0].active).toBeActive();
